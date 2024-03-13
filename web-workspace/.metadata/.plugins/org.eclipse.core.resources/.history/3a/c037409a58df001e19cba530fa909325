@@ -1,0 +1,60 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<header>
+<h2>롯데리아 햄버거</h2>
+</header>
+<nav>
+	<span><a href="#">메뉴1</a></span>
+	<span><a href="#">메뉴2</a></span>
+	<span><a href="#">메뉴3</a></span>
+	<span><a href="#">메뉴4</a></span>
+</nav>
+<section>
+<table>
+<caption>햄버거 목록 조회</caption>
+<!-- 제목줄 -->
+<tr>
+  	  <td>이름 </td>
+  	  <td>가격</td>
+ 	  <td>코드</td> 
+ 	  <td>입고날짜</td> 
+ 	  <td>수정/삭제</td>  	     	  
+  	</tr>  
+
+<%
+	String driver = "oracle.jdbc.driver.OracleDriver";
+	String url = "jdbc:oracle:thin:@localhost:1521:testdb";
+	String user = "scott";
+	String password = "tiger";	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+%>
+
+
+</table>
+
+
+
+
+
+
+
+
+</section>
+</body>
+</html>

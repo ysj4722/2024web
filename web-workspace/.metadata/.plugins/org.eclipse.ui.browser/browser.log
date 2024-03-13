@@ -1,0 +1,8 @@
+
+3월 13, 2024 11:53:05.25 NEW SESSION
+3월 13, 2024 11:53:05.26 [14148:15872:0313/115305.249:ERROR:cert_verify_proc_builtin.cc(874)] CertVerifyProcBuiltin for cs.axis-marketplace.com failed:
+3월 13, 2024 11:53:05.27 ----- Certificate i=0 (CN=*.axis-marketplace.com) -----
+3월 13, 2024 11:53:05.27 ERROR: Time is after notAfter
+3월 13, 2024 11:53:05.27 
+3월 13, 2024 11:53:05.27 
+3월 13, 2024 13:44:34.61 [14148:9556:0313/134434.614:ERROR:sharing_service.cc(250)] Device un-registration failed with fatal error

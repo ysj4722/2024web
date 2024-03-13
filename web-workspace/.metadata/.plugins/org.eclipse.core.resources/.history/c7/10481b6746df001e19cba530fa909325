@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form method="post">
+<div>
+<!-- 이미지영역 -->
+<div class="img_wrap"></div>
+<!-- 로그인정보영역 -->
+<div class="info_wrap">
+
+
+
+
+</div>
+</div>
+</form>
+</body>
+</html>

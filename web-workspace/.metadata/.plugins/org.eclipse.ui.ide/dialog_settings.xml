@@ -6,6 +6,10 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\2024자바풀스택\웹\web-workspace\sessionSurvey"/>
+			<item value="C:\2024자바풀스택\웹\web-workspace\sessionCart"/>
+			<item value="C:\2024자바풀스택\웹\web-workspace\sessionLogin"/>
+			<item value="C:\2024자바풀스택\웹\web-workspace\DAOSample"/>
 			<item value="C:\2024자바풀스택\웹\web-workspace\mainpage"/>
 			<item value="C:\2024자바풀스택\웹\web-workspace\airplane_ticket"/>
 			<item value="C:\2024자바풀스택\웹\web-workspace\함현지,강지훈jsp과제"/>

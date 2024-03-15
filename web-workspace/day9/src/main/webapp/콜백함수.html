@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<script>
+
+function a(){
+	alert("a함수이다");
+}
+
+let b = function(){
+	alert("b함수이다");
+}
+
+
+a();
+b();
+
+function getTentotal(){
+	
+	let sum = 0;
+	
+	for(let i=0;i<=10;i++){}
+		sum = sum+i;
+	}
+	return sum;
+
+	let result = getTentotal();
+	
+	alert(result);
+	
+	//콜백함수
+	//함수의 매개변수로 함수를 전달받는 것을 콜백함수( 나중에 호출되는 함수라는 의미로 callback 함수라고 부름)
+	
+function hi(){
+	alert("hi");
+}	
+	
+function eachFor(func){ //매개변수로 함수를 전달 받는다.
+	for(let i=1;i<=3;i++){
+		func();
+	}
+}	
+
+eachFor(hi);
+
+</script>
+</body>
+</html>

@@ -18,12 +18,17 @@ public class FoodServlet2  extends HttpServlet {
 		 
 	 
 		resp.setCharacterEncoding("utf-8");
+		//resp.setContentType("text/html;charset=utf-8");
 		resp.setContentType("application/json;charset=utf-8");		
 		
 		Food food = new Food("볶음밥","6000"); 
+		
 		JSONObject  o= new JSONObject();
+		
 		o.put("name", food.getName());
 		o.put("price", food.getPrice());	
+		
+		
 		resp.getWriter().println( o);
 		
 		
